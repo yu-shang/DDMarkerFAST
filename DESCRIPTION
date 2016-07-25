@@ -1,0 +1,16 @@
+Package: DDMarkerFAST
+Type: Package
+Title: Diagnose and Detect Markers in Extracellular Circulating Feature Selection Method
+Version: 1.0
+Date: 2016-07-12
+Author: Yu Shang, Qiong Yu, Huansheng Cao, Guoqing Liu, Xiufeng Liu, Hao Wu, Yan Wang, Ying Xu
+Maintainer: Yu Shang <yushang@uga.edu>
+Correspond: Qiong Yu <yuqiong@uga.edu>, Ying Xu <xyn@bmb.uga.edu>
+Description: Diagnose and Detect Markers in Extracellular Circulating is a homo sapiens deductive system solving the markers in extracellular circulating. It entails the symbols of markers, like the genes, the proteins, the micro RNAs, and the isoforms, whether can be diagnose and detect in extracellular circulating, especially the blood serum and the urine for the biological and medicine significance. With the help of a homo sapiens annotation database in DDMarkerData package, DDMarker can even diagnose and detect the sequence among the genes, the proteins, the micro RNAs, and the isoforms. There are two main function in this package, the ddmarker, and the MMC, short for Minimal Metabolize Circulation. MMC entails the markers among the minimal metabolize circulation. FAST is the feature selection method of DDMarker. It shows a way to predict your own data not only like DDMarker and cui's nucleic acids research did, but also can do it in 4 new ways: Support vector machines, the most stable method in biomarkers diagnosis; Adaboost, also known as the the most efficiency and accuracy method; Naive bayes cluster; Recursive partitioning and regression trees; Decision trees.
+License: GPL (>= 2)
+LazyData: TRUE
+Depends: R (>= 3.0.3), e1071, adabag, rpart, C50
+Imports: 
+    e1071, adabag, rpart, C50
+LinkingTo: 
+    e1071, adabag, rpart, C50
